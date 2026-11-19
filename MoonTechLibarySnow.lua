@@ -669,8 +669,6 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
 		WindowStuff
 	}), "Main")
 
-
-
     local FrostOverlay = Instance.new("ImageLabel")
     FrostOverlay.Name = "FrostOverlay"
     FrostOverlay.BackgroundTransparency = 1
