@@ -677,7 +677,7 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
     FrostOverlay.Image = "rbxassetid://117699933230644"
     FrostOverlay.ImageTransparency = 0.15
     FrostOverlay.ImageColor3 = Color3.fromRGB(255, 255, 255)
-    FrostOverlay.Size = UDim2.fromScale(1, 1)
+    FrostOverlay.Size = UDim2.new(0, 615, 0, 344),
     FrostOverlay.Position = UDim2.fromScale(0, 0)
     FrostOverlay.ScaleType = Enum.ScaleType.Stretch
     FrostOverlay.ZIndex = 10
@@ -685,10 +685,6 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
     FrostOverlay.Selectable = false
     FrostOverlay.Interactable = false
     FrostOverlay.Parent = MainWindow
-
-    local FrostCorner = Instance.new("UICorner")
-    FrostCorner.CornerRadius = UDim.new(0, 10)
-    FrostCorner.Parent = FrostOverlay
 
 
     local SnowContainer = Instance.new("Frame")
