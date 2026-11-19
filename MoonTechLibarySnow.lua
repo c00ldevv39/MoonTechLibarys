@@ -674,7 +674,7 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
     local FrostOverlay = Instance.new("ImageLabel")
     FrostOverlay.Name = "FrostOverlay"
     FrostOverlay.BackgroundTransparency = 1
-    FrostOverlay.Image = "rbxassetid://11510289277"
+    FrostOverlay.Image = "rbxassetid://92274907247687"
     FrostOverlay.ImageTransparency = 0.15
     FrostOverlay.ImageColor3 = Color3.fromRGB(255, 255, 255)
     FrostOverlay.Size = UDim2.fromScale(1, 1)
@@ -690,7 +690,7 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
     FrostCorner.CornerRadius = UDim.new(0, 10)
     FrostCorner.Parent = FrostOverlay
 
-    
+
     local SnowContainer = Instance.new("Frame")
     SnowContainer.Name = "SnowParticles"
     SnowContainer.BackgroundTransparency = 1
@@ -1838,7 +1838,7 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
 		Content = "New UI Library Available at sirius.menu/discord and sirius.menu/rayfield",
 		Time = 5
 	})
-	--a
+	
 
 	
 	return TabFunction
