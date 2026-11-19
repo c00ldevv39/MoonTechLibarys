@@ -677,7 +677,6 @@ local WindowStuff = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame"
     FrostOverlay.Image = "rbxassetid://117699933230644"
     FrostOverlay.ImageTransparency = 0.15
     FrostOverlay.Size = UDim2.fromScale(1, 1)
-    FrostOverlay.Size = UDim2.new(0, 615, 0, 344),
     FrostOverlay.Position = UDim2.fromScale(0, 0)
     FrostOverlay.ScaleType = Enum.ScaleType.Stretch
     FrostOverlay.ZIndex = 10
