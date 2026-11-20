@@ -131,7 +131,7 @@ local function ForceLighting()
         end
     end
 end
-iner)
+local function DisableRain(container)
     if not container then return end
 
     for _, obj in ipairs(container:GetDescendants()) do
